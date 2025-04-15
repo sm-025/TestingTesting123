@@ -24,7 +24,9 @@ class UniqueCollection {
 
     /** Clear all items from hte collection */
     fun clear () {
-
+        repeat(collection.size) {
+            collection.remove(collection[0])
+        }
     }
 
     /** Return the side of the collection */

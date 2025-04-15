@@ -32,8 +32,6 @@ class MainActivity : AppCompatActivity() {
             }
             itemEditText.setText("")
         }
-
-
     }
 }
 
@@ -53,8 +51,6 @@ class ItemAdapter(private val items: UniqueCollection) : RecyclerView.Adapter<It
     override fun onBindViewHolder(holder: ItemViewHolder, position: Int) {
         holder.textView.text = items.get(position).name
     }
-
-
 }
 
 
